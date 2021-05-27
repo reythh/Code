@@ -1,0 +1,17 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        String x;
+        hackerSpeak("javascript is cool");
+    }
+           public static void hackerSpeak(String x){
+            x = x.replace('a','4');
+            x = x.replace('e','3');
+            x = x.replace('i','1');
+            x = x.replace('o','0');
+            x = x.replace('s','5');
+            System.out.println(x);
+        }
+}
